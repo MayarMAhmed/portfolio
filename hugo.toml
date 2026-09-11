@@ -1,0 +1,73 @@
+baseURL = "http://localhost:1313/"
+title = "Mayar Ahmed"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+[pagination]
+  pagerSize = 20
+
+[markup.highlight]
+  style = "github-dark"
+
+[params]
+  author = "Mayar Ahmed"
+  info = "PhD Candidate @ [Durrant Lab](https://durrantlab.pitt.edu/)"
+  description = "Mayar Ahmed — PhD candidate in computational drug discovery, cheminformatics, and machine learning for structure-based drug design."
+  keywords = "computational drug discovery,cheminformatics,machine learning,drug design,molecular docking,PhD,portfolio"
+  since = 2026
+  colorScheme = "auto"
+  avatarURL = "images/25127.jpg"  
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# ---- Social icons: the row under your name ----
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:mayarmmahmed@gmail.com"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/mayarmahmed/"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 3
+  url = "https://github.com/MayarMAhmed/"  
+
+[[params.social]]
+  name = "Google Scholar"
+  icon = "fa-brands fa-google-scholar fa-2x"
+  weight = 4
+  url = "https://scholar.google.com/citations?user=I96NVtUAAAAJ&hl"  
+
+[[params.social]]
+  name = "ORCID"
+  icon = "fa-brands fa-orcid fa-2x"
+  weight = 5
+  url = "https://orcid.org/0009-0005-1998-1683"
+
+# ---- Top navigation menu ----
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+
+[[menu.main]]
+  name = "Publications"
+  weight = 2
+  url = "publications/"
+
+[[menu.main]]
+  name = "CV"
+  weight = 3
+  url = "cv/"
