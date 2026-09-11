@@ -1,0 +1,29 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 1
+title = "May Ahmed"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+
+[params.author]
+  name = "Mayar Ahmed"
+  image = "img/25127.jpg"
+  headline = "PhD Candidate at University of Pittsburgh"
+  # bio = "PhD candidate building open-source tools and large-scale datasets for structure-based drug design."
+  links = [
+    { email = "mailto:mayarmmahmed@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/mayarmahmed/" },
+    { github = "https://github.com/MayarMAhmed/" },
+    { "google-scholar" = "https://scholar.google.com/citations?user=I96NVtUAAAAJ" },
+    { orcid = "https://orcid.org/0009-0005-1998-1683" },
+  ]

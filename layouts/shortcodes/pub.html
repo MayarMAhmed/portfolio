@@ -1,0 +1,16 @@
+<div class="pub">
+  <div class="pub-tags">
+    {{ with .Get "type" }}<span class="pub-type pub-type-{{ . | lower }}">{{ . }}</span>{{ end }}
+    {{ with .Get "badge" }}<span class="pub-badge">{{ . }}</span>{{ end }}
+  </div>
+  <div class="pub-title">{{ .Get "title" | markdownify }}</div>
+  {{ with .Get "venue" }}<div class="pub-venue">{{ . }}</div>{{ end }}
+  {{ with .Get "authors" }}<div class="pub-authors">{{ . | markdownify }}</div>{{ end }}
+  {{ with .Inner }}<div class="pub-note">{{ . | markdownify }}</div>{{ end }}
+  <div class="pub-links">
+    {{ with .Get "doi" }}<a class="pub-btn" href="{{ . }}" target="_blank" rel="noopener">DOI</a>{{ end }}
+    {{ with .Get "pdf" }}<a class="pub-btn" href="{{ . }}" target="_blank" rel="noopener">PDF</a>{{ end }}
+    {{ with .Get "code" }}<a class="pub-btn" href="{{ . }}" target="_blank" rel="noopener">Code</a>{{ end }}
+    {{ with .Get "conf" }}<a class="pub-btn" href="{{ . }}" target="_blank" rel="noopener">Conference</a>{{ end }}
+  </div>
+</div>

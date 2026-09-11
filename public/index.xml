@@ -1,36 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Mayar Ahmed</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on Mayar Ahmed</description>
-		<generator>Hugo</generator>
-		<language>en</language>
-		
-		
-		
-		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>About</title>
-				<link>http://localhost:1313/about/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/about/</guid>
-				<description>&lt;p&gt;I&amp;rsquo;m a final-year Ph.D. candidate in &lt;a href=&#34;https://durrantlab.pitt.edu/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Jacob Durrant&amp;rsquo;s lab&lt;/a&gt; at the University of Pittsburgh, working at the intersection of computational structural biology and machine learning for drug discovery. My focus is building open-source tools and large-scale datasets for structure-based drug design.&lt;/p&gt;&#xA;&lt;p&gt;Right now I&amp;rsquo;m developing LIGNOVA, an automated Python pipeline that docks bioactive PubChem compounds against experimentally determined protein structures to generate protein–ligand datasets for training machine-learning models — over 125 million poses across 175,200 compounds and 4,180 protein structures so far, backed by a competitive NSF ACCESS allocation to scale it nationally.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>CV</title>
-				<link>http://localhost:1313/cv/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/cv/</guid>
-				<description>&lt;p&gt;I keep two versions depending on what you&amp;rsquo;re after:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Academic CV — full record of research, publications, teaching, and service. &lt;a href=&#34;http://localhost:1313/files/Mayar_Ahmed_CV.pdf&#34; &gt;Download (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Industry résumé — a focused summary of my computational and ML work. &lt;a href=&#34;http://localhost:1313/files/Mayar_Ahmed_Resume.pdf&#34; &gt;Download (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;awards--honors&#34;&gt;&#xA;  Awards &amp;amp; Honors&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#awards--honors&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.xras.org/public/requests/270272-ACCESS-BIO260240&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NSF ACCESS Allocation (BIO260240)&lt;/a&gt; — competitive national computing allocation (Purdue Anvil + TAMU ACES) awarded to scale the LIGNOVA pipeline (2026).&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.asgraduate.pitt.edu/financial-support/conference-grants&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A&amp;amp;S GSO Conference Travel Grant&lt;/a&gt; — University of Pittsburgh (2026).&lt;/li&gt;&#xA;&lt;li&gt;Nominated, &lt;a href=&#34;https://pre.asgso.pitt.edu/committees/teaching-award/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elizabeth Baranger Excellence in Teaching Award&lt;/a&gt; — University of Pittsburgh Arts &amp;amp; Sciences Graduate Student Organization (2024 &amp;amp; 2026).&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.zewailcity.edu.eg/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Merit-Based Scholarship (90%)&lt;/a&gt; — Zewail City of Science and Technology, held across all four undergraduate years (2017–2021).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;highlights&#34;&gt;&#xA;  Highlights&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#highlights&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ph.D. candidate, Molecular, Cellular &amp;amp; Developmental Biology, University of Pittsburgh (expected Dec 2027), Durrant Lab.&lt;/li&gt;&#xA;&lt;li&gt;NSF ACCESS allocation (BIO260240) awarded to scale the LIGNOVA pipeline.&lt;/li&gt;&#xA;&lt;li&gt;Co-first-author publication in &lt;em&gt;PNAS&lt;/em&gt; (2025); contributor to &lt;em&gt;MolModa&lt;/em&gt; (&lt;em&gt;Nucleic Acids Research&lt;/em&gt;, 2024).&lt;/li&gt;&#xA;&lt;li&gt;Graduate TA &amp;amp; Fellow in Biochemistry — recitations and office hours for ~200 students, mentored 15 undergraduate TAs; nominated for the Elizabeth Baranger Excellence in Teaching Award.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-			</item>
-			<item>
-				<title>Publications</title>
-				<link>http://localhost:1313/publications/</link>
-				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/publications/</guid>
-				<description>&lt;p&gt;* denotes co-first authorship.&lt;/p&gt;&#xA;&lt;h3 id=&#34;peer-reviewed&#34;&gt;&#xA;  Peer-reviewed&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#peer-reviewed&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Holland, M.*, &lt;strong&gt;Ahmed, M.*&lt;/strong&gt;, Young, J. M., Drurey, J. R., McFadyen, S., Ostrowski, E. A., Levin, T. C. Hypermutable hotspot enables the rapid evolution of self/non-self recognition genes in &lt;em&gt;Dictyostelium&lt;/em&gt;. &lt;em&gt;PNAS&lt;/em&gt; 2025, 122(51). &lt;a href=&#34;https://doi.org/10.1073/pnas.2520843122&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi:10.1073/pnas.2520843122&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kochnev, Y., &lt;strong&gt;Ahmed, M.&lt;/strong&gt;, Maldonado, A. M., Durrant, J. D. MolModa: accessible and secure molecular docking in a web browser. &lt;em&gt;Nucleic Acids Research&lt;/em&gt; 2024, 52(W1), W498–W506. &lt;a href=&#34;https://doi.org/10.1093/nar/gkae406&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;doi:10.1093/nar/gkae406&lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Ma Ahmed on May Ahmed</title>
+    <link>http://localhost:57128/</link>
+    <description>Recent content in Ma Ahmed on May Ahmed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Mayar Ahmed</copyright>
+    <atom:link href="http://localhost:57128/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:57128/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:57128/about/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>http://localhost:57128/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:57128/cv/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>http://localhost:57128/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:57128/publications/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
 </rss>
