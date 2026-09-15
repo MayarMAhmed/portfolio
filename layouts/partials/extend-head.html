@@ -1,4 +1,33 @@
 <style>
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 5.5rem; }   /* so the floating header doesn't cover section tops */
+
+@media (min-width: 1024px) {
+  main article { margin-left: auto; margin-right: auto; }
+}
+.pagenav {
+  position: fixed; top: 7rem; left: 1.5rem;
+  display: flex; flex-direction: column; gap: .5rem; z-index: 30;
+}
+.pagenav a {
+  font-size: .72rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: inherit; opacity: .5; text-decoration: none;
+  border-left: 2px solid transparent; padding: .1rem 0 .1rem .7rem;
+  transition: opacity .15s, border-color .15s;
+}
+.pagenav a:hover { opacity: 1; border-left-color: #3b82f6; }
+@media (max-width: 1280px) { .pagenav { display: none; } }
+
+@media (min-width: 1024px) {
+  .max-w-prose,
+  main > article,
+  main > section,
+  #main-content > * {
+    max-width: 1150px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
 /* --- Alternating timeline --- */
 .tl { position: relative; margin: 2.5rem 0; }
 .tl::before {
@@ -75,9 +104,11 @@
 .pub-btn:hover { background: rgba(59,130,246,.22); }
 
 /* --- Skills --- */
-.skills { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
-@media (max-width: 640px) { .skills { grid-template-columns: 1fr; } }
+.skills { column-count: 2; column-gap: 1rem; max-width: 1100px; margin: 1.5rem 0; }
+@media (max-width: 700px) { .skills { column-count: 1; } }
 .skill-group {
+  break-inside: avoid; -webkit-column-break-inside: avoid;
+  display: inline-block; width: 100%; margin: 0 0 1rem;
   padding: 1rem 1.15rem; border-radius: .75rem;
   background: rgba(125,125,135,.08); border: 1px solid rgba(125,125,135,.2);
 }
@@ -90,5 +121,4 @@
   font-size: .82rem; padding: .25rem .65rem; border-radius: 9999px;
   background: rgba(125,125,135,.14); border: 1px solid rgba(125,125,135,.18);
 }
-
 </style>

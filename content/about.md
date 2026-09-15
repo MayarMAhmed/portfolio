@@ -2,12 +2,18 @@
 title = "About"
 +++
 
+<nav class="pagenav" aria-label="On this page">
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#skills">Skills</a>
+</nav>
+
+<span id="about"></span>
+
 I'm a final-year Ph.D. candidate in the [Durrant Lab](https://durrantlab.pitt.edu/) at the University of Pittsburgh, working at the intersection of computational structural biology and machine learning for drug discovery. My focus is building open-source tools and large-scale datasets for structure-based drug design.
 
 I'm now seeking industry roles in computational drug discovery, machine learning for chemistry, and cheminformatics / scientific software development. Open to relocation.
-
-## Experience & Education
-
+## Experience & Education {#experience}
 {{< tl >}}
 
 {{< tlitem badge="Aug 2021 – Present" header="University of Pittsburgh" subheader="Ph.D. Candidate, MCDB — [Durrant Lab](https://durrantlab.pitt.edu/)" >}}
@@ -33,13 +39,18 @@ Graduated *cum laude* on a 90% merit-based scholarship.
 {{< /tl >}}
 
 For the full record, see my [CV](/cv/) and [publications](/publications/).
-## Skills
+## Skills {#skills}
 
 <div class="skills">
 
 <div class="skill-group">
 <h4>Programming</h4>
-<div class="skill-pills"><span>Python</span><span>Bash</span><span>R</span></div>
+<div class="skill-pills"><span>Python</span><span>Bash</span><span>R</span></span><span>Matlab</span></div>
+</div>
+
+<div class="skill-group">
+<h4>Languages</h4>
+<div class="skill-pills"><span>Arabic — native</span><span>English — fluent</div>
 </div>
 
 <div class="skill-group">
@@ -53,18 +64,18 @@ For the full record, see my [CV](/cv/) and [publications](/publications/).
 </div>
 
 <div class="skill-group">
+<h4>Genomics &amp; Bioinformatics</h4>
+<div class="skill-pills"><span>FastQC</span><span>Flye</span><span>minimap2</span><span>BWA</span><span>samtools</span><span>bcftools</span><span>bedtools</span><span>BLAST</span><span>BUSCO</span><span>MCScanX</span><span>CRAQ</span><span>Genome assembly (Nanopore / Illumina)</span><span>Variant calling</span></div>
+</div>
+
+<div class="skill-group">
 <h4>Scientific Computing</h4>
 <div class="skill-pills"><span>NumPy</span><span>SciPy</span><span>pandas</span><span>Polars</span><span>PyArrow</span><span>Biopython</span><span>MDAnalysis</span></div>
 </div>
 
 <div class="skill-group">
 <h4>Tools &amp; Infrastructure</h4>
-<div class="skill-pills"><span>Git / GitHub</span><span>Linux</span><span>HPC / SLURM</span></div>
-</div>
-
-<div class="skill-group">
-<h4>Languages</h4>
-<div class="skill-pills"><span>Arabic — native</span><span>English — fluent</div>
+<div class="skill-pills"><span>Git / GitHub</span><span>Linux</span><span>HPC / SLURM</span><span>pixi</span></div>
 </div>
 
 </div>
