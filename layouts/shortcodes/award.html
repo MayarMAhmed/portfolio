@@ -1,4 +1,5 @@
-<div class="award">
+{{ $url := .Get "url" }}
+<div class="award{{ if $url }} pub-link{{ end }}"{{ with $url }} onclick="window.open('{{ . }}','_blank')"{{ end }}>
   <div class="award-top">
     <span class="award-title">{{ .Get "title" | markdownify }}</span>
     {{ with .Get "year" }}<span class="award-year">{{ . }}</span>{{ end }}

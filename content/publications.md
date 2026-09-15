@@ -25,13 +25,12 @@ Benchmarked molecular docking across 255 crystal structures under three hydratio
 Department seminar on assembling fragment-based drug design components into an end-to-end *in silico* pipeline.
 {{< /pub >}}
 
-
 {{< pub type="Paper" badge="Co-first author" title="Hypermutable hotspot enables the rapid evolution of self/non-self recognition genes in *Dictyostelium*" venue="PNAS · 2025 · 122(51)" authors="Holland, M., **Ahmed, M.**, Young, J. M., Drurey, J. R., McFadyen, S., Ostrowski, E. A., Levin, T. C." doi="https://doi.org/10.1073/pnas.2520843122" >}}
-Showed how a hypermutable genomic hotspot drives the rapid evolution of self/non-self recognition genes in the social amoeba *Dictyostelium*. **My role:** co-first author — computational and evolutionary genomics analysis.
+Investigated how the social amoeba *Dictyostelium discoideum* maintains the extreme genetic diversity its self/non-self recognition system requires. We found that the recognition genes *tgrB1* and *tgrC1* sit in a hypermutable genomic hotspot that generates new alleles faster than selection can fix any one of them — resolving Crozier's paradox, a long-standing puzzle in the evolution of kin recognition. **My role:** co-first author where I led the computational genomics, genome assembly, QC, and targeted annotation across 10 chromosome-length genomes.
 {{< /pub >}}
 
 {{< pub type="Talk" title="DeepFrag meets LIGNOVA: Transforming drug design with fragment-based lead optimization" venue="MCDB Noon Seminar Series · Durrant Lab, University of Pittsburgh · Nov 2024" authors="**Ahmed, M.**" >}}
-Department seminar connecting the LIGNOVA dataset with DeepFrag for fragment-based lead optimization.
+Department seminar connecting the data generated from the LIGNOVA pipeline with DeepFrag for fragment-based lead optimization.
 {{< /pub >}}
 
 {{< pub type="Poster" title="Beyond the Blueprint: A Novel Database for Innovative Drug Design and Discovery" venue="Gordon Research Conference on Computational Chemistry · Portland, ME · 2024" authors="**Ahmed, M.**, Durrant, J. D." conf="https://www.grc.org/computational-chemistry-conference/2024/" >}}
@@ -43,11 +42,11 @@ Department seminar presenting the database concept behind LIGNOVA.
 {{< /pub >}}
 
 {{< pub type="Paper" title="MolModa: accessible and secure molecular docking in a web browser" venue="Nucleic Acids Research · 2024 · 52(W1), W498–W506" authors="Kochnev, Y., **Ahmed, M.**, Maldonado, A. M., Durrant, J. D." doi="https://doi.org/10.1093/nar/gkae406" >}}
-A free tool that runs molecular docking entirely in the browser — no installs, no data upload — making docking accessible and privacy-preserving. **My role:** contributed to development.
+MolModa is a web-based molecular docking tool that makes protein–ligand docking more accessible, secure, and efficient — running docking workflows directly in the browser, with no installation or advanced technical skills required, while preserving data privacy and reproducibility. 
 {{< /pub >}}
 
 {{< pub type="Paper" badge="Review" title="From byte to bench to bedside: molecular dynamics simulations and drug discovery" venue="BMC Biology · 2023 · 21(1), 299" authors="**Ahmed, M.**, Maldonado, A. M., Durrant, J. D." doi="https://doi.org/10.1186/s12915-023-01791-z" >}}
-A review tracing how molecular dynamics simulations accelerate computer-aided drug discovery, from computation to bench to bedside. **My role:** first author.
+A review of how advances in molecular dynamics (MD) simulations — and their integration with machine learning and quantum approaches — can bridge the gap between computational modeling and experimental drug discovery.
 {{< /pub >}}
 
 {{< pub type="Poster" title="Augmenting Protein–Ligand Complex Databases with PubChem for Enhanced Drug Discovery" venue="Gordon Research Conference & Seminar on Computer-Aided Drug Design · West Dover, VT · 2023" authors="**Ahmed, M.**, Durrant, J. D." conf="https://www.grc.org/computer-aided-drug-design-conference/2023/" >}}

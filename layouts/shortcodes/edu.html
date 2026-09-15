@@ -1,0 +1,9 @@
+{{ $url := .Get "url" }}
+<div class="edu{{ if $url }} pub-link{{ end }}"{{ with $url }} onclick="window.open('{{ . }}','_blank')"{{ end }}>
+  <div class="edu-top">
+    <span class="edu-degree">{{ .Get "degree" | markdownify }}</span>
+    {{ with .Get "year" }}<span class="edu-year">{{ . }}</span>{{ end }}
+  </div>
+  {{ with .Get "school" }}<div class="edu-school">{{ . }}</div>{{ end }}
+  {{ with .Inner }}<div class="edu-detail">{{ . | markdownify }}</div>{{ end }}
+</div>

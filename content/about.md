@@ -65,28 +65,13 @@ Long-read assembly, genome annotation, QC, and targeted *tgrBC* locus analysis i
 <div class="skills">
 
 <div class="skill-group">
-<h4>Programming</h4>
-<div class="skill-pills"><span>Python</span><span>Bash</span><span>R</span></span><span>Matlab</span></div>
-</div>
-
-<div class="skill-group">
-<h4>Languages</h4>
-<div class="skill-pills"><span>Arabic — native</span><span>English — fluent</div>
-</div>
-
-<div class="skill-group">
-<h4>Machine Learning</h4>
-<div class="skill-pills"><span>PyTorch</span><span>scikit-learn</span><span>Graph Neural Networks</span><span>Feature Engineering</span><span>Model Evaluation</span></div>
-</div>
-
-<div class="skill-group">
 <h4>Cheminformatics &amp; Modeling</h4>
-<div class="skill-pills"><span>GNINA</span><span>Glide</span><span>AutoDock Vina</span><span>Foldseek</span><span>RDKit</span><span>PDB2PQR</span><span>Gypsum-DL</span><span>Open Babel</span><span>ChimeraX</span></div>
+<div class="skill-pills"><span>GNINA</span><span>Glide</span><span>AutoDock Vina</span><span>Foldseek</span><span>RDKit</span><span>PDB2PQR</span><span>Gypsum-DL</span><span>Open Babel</span><span>Meeko</span><span>MGLTools</span><span>AlphaFold</span></div>
 </div>
 
 <div class="skill-group">
 <h4>Genomics &amp; Bioinformatics</h4>
-<div class="skill-pills"><span>FastQC</span><span>Flye</span><span>minimap2</span><span>BWA</span><span>samtools</span><span>bcftools</span><span>bedtools</span><span>BLAST</span><span>BUSCO</span><span>MCScanX</span><span>CRAQ</span><span>Genome assembly (Nanopore / Illumina)</span><span>Variant calling</span></div>
+<div class="skill-pills"><span>FastQC</span><span>Flye</span><span>minimap2</span><span>BWA</span><span>samtools</span><span>bcftools</span><span>bedtools</span><span>BLAST</span><span>BUSCO</span><span>MCScanX</span><span>CRAQ</span><span>Genome assembly (Nanopore / Illumina)</span><span>Variant calling</span><span>GWAS</span></div>
 </div>
 
 <div class="skill-group">
@@ -95,8 +80,23 @@ Long-read assembly, genome annotation, QC, and targeted *tgrBC* locus analysis i
 </div>
 
 <div class="skill-group">
+<h4>Machine Learning</h4>
+<div class="skill-pills"><span>PyTorch</span><span>scikit-learn</span><span>Random Forest</span><span>Graph Neural Networks</span><span>Feature Engineering</span><span>Model Evaluation</span></div>
+</div>
+
+<div class="skill-group">
+<h4>Programming</h4>
+<div class="skill-pills"><span>Python</span><span>Bash</span><span>R</span><span>MATLAB</span></div>
+</div>
+
+<div class="skill-group">
 <h4>Tools &amp; Infrastructure</h4>
 <div class="skill-pills"><span>Git / GitHub</span><span>Linux</span><span>HPC / SLURM</span><span>pixi</span></div>
+</div>
+
+<div class="skill-group">
+<h4>Languages</h4>
+<div class="skill-pills"><span>Arabic — native</span><span>English — fluent</span></div>
 </div>
 
 </div>
