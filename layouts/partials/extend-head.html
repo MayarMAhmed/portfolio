@@ -1,5 +1,6 @@
 <style>
 html { scroll-behavior: smooth; }
+html { font-size: 17px; }
 [id] { scroll-margin-top: 5.5rem; }   /* so the floating header doesn't cover section tops */
 
 @media (min-width: 1024px) {
@@ -130,7 +131,9 @@ html { scroll-behavior: smooth; }
 .skill-pills { display: flex; flex-wrap: wrap; gap: .4rem; }
 .skill-pills span {
   font-size: .82rem; padding: .25rem .65rem; border-radius: 9999px;
-  background: rgba(125,125,135,.14); border: 1px solid rgba(125,125,135,.18);
+  background: rgb(var(--color-primary-500) / 0.15);
+  color: rgb(var(--color-primary-400));
+  border: 1px solid rgb(var(--color-primary-500) / 0.3);
 }
 
 .repos { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); align-items: start; gap: 1rem; max-width: 1150px; margin: 1.5rem 0; }
@@ -145,4 +148,21 @@ html { scroll-behavior: smooth; }
 .repo-desc { font-size: .9rem; opacity: .9; }
 .repo-lang { display: inline-block; margin-top: .6rem; font-size: .75rem; opacity: .7; }
 
+.cv-downloads { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.5rem 0 2.5rem; }
+.cv-dl {
+  display: flex; flex-direction: column; gap: .15rem; text-decoration: none; color: inherit;
+  padding: .85rem 1.25rem; border-radius: .75rem; min-width: 230px;
+  background: rgba(59,130,246,.1); border: 1px solid rgba(59,130,246,.35);
+  transition: background .15s, transform .15s;
+}
+.cv-dl:hover { background: rgba(59,130,246,.2); transform: translateY(-2px); }
+.cv-dl b { font-size: .98rem; color: #3b82f6; }
+.cv-dl span { font-size: .82rem; opacity: .8; }
+
+.award { padding: 1rem 1.25rem; margin: .8rem 0; border-radius: .75rem; background: rgba(125,125,135,.08); border: 1px solid rgba(125,125,135,.2); }
+.award-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .5rem; align-items: baseline; }
+.award-title { font-weight: 700; font-size: 1rem; }
+.award-title a { color: #3b82f6; text-decoration: none; }
+.award-year { font-size: .8rem; opacity: .6; white-space: nowrap; }
+.award-org { font-size: .9rem; opacity: .85; margin-top: .2rem; }
 </style>

@@ -1,0 +1,7 @@
+<div class="award">
+  <div class="award-top">
+    <span class="award-title">{{ .Get "title" | markdownify }}</span>
+    {{ with .Get "year" }}<span class="award-year">{{ . }}</span>{{ end }}
+  </div>
+  {{ with .Get "org" }}<div class="award-org">{{ . | markdownify }}</div>{{ end }}
+</div>
