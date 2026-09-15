@@ -32,7 +32,7 @@ Graduated *Cum Laude*
 
 {{< award url="https://www.pittgpsg.com/grants-travel" title="GPSG Travel Grant" org="University of Pittsburgh — Graduate & Professional Student Government, for presenting at the Computational Medicinal Chemistry School conference." year="2026" >}}
 
-{{< award url="https://www.asgso.pitt.edu/awards-and-grants/teaching-award/" title="Elizabeth Baranger Excellence in Teaching Award — *nominated*" org="University of Pittsburgh — A&S Graduate Student Organization." year="2024 & 2026" >}}
+{{< award url="https://www.asgso.pitt.edu/awards-and-grants/teaching-award/" title="Elizabeth Baranger Excellence in Teaching Award — *nominated*" org="University of Pittsburgh — A&S Graduate Student Organization, recognizing excellence in graduate-student teaching across Arts & Sciences; awardees are nominated by their undergraduate students. Nominated for teaching Biochemistry." year="2024 & 2026" >}}
 
 {{< award url="https://www.zewailcity.edu.eg/" title="Provost's Honors Roll" org="Zewail City of Science and Technology, recognizing the top 5 students by cumulative GPA. Spring 2021." year="2021" >}}
 
