@@ -1,0 +1,18 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var bar = document.querySelector(".pubfilter");
+  if (!bar) return;
+  var cards = Array.from(document.querySelectorAll(".pub"));
+  bar.addEventListener("click", function (e) {
+    var btn = e.target.closest("button");
+    if (!btn) return;
+    var want = btn.dataset.filter;
+    bar.querySelectorAll("button").forEach(function (b) { b.classList.remove("active"); });
+    btn.classList.add("active");
+    cards.forEach(function (card) {
+      var type = (card.querySelector(".pub-type") || {}).textContent || "";
+      card.classList.toggle("hidden", want !== "all" && type.trim() !== want);
+    });
+  });
+});
+</script>

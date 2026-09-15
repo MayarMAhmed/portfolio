@@ -1,0 +1,6 @@
+<a class="repo" href="{{ .Get "url" }}" target="_blank" rel="noopener">
+  <div class="repo-name">{{ .Get "name" }}</div>
+  <div class="repo-full">{{ .Get "full" }}</div>
+  <div class="repo-desc">{{ .Inner | markdownify }}</div>
+  {{ with .Get "lang" }}<span class="repo-lang">● {{ . }}</span>{{ end }}
+</a>

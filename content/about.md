@@ -1,10 +1,11 @@
 +++
-title = "About"
+title = "About me"
 +++
 
 <nav class="pagenav" aria-label="On this page">
   <a href="#about">About</a>
   <a href="#experience">Experience</a>
+  <a href="#software">Software</a>
   <a href="#skills">Skills</a>
 </nav>
 
@@ -13,6 +14,7 @@ title = "About"
 I'm a final-year Ph.D. candidate in the [Durrant Lab](https://durrantlab.pitt.edu/) at the University of Pittsburgh, working at the intersection of computational structural biology and machine learning for drug discovery. My focus is building open-source tools and large-scale datasets for structure-based drug design.
 
 I'm now seeking industry roles in computational drug discovery, machine learning for chemistry, and cheminformatics / scientific software development. Open to relocation.
+
 ## Experience & Education {#experience}
 {{< tl >}}
 
@@ -39,6 +41,25 @@ Graduated *cum laude* on a 90% merit-based scholarship.
 {{< /tl >}}
 
 For the full record, see my [CV](/cv/) and [publications](/publications/).
+
+## Software {#software}
+
+<div class="repos">
+
+{{< repo name="LIGNOVA" full="durrantlab/lignova" lang="Python · Bash · SLURM" url="https://github.com/durrantlab/lignova" >}}
+Automated pipeline to generate high-quality docked protein–ligand complexes at scale. **Lead developer.**
+{{< /repo >}}
+
+{{< repo name="reqadence" full="durrantlab/reqadence" lang="Python" url="https://github.com/durrantlab/reqadence" >}}
+Async foundation for REST API clients with retries, rate limiting, and response caching. **Lead developer.**
+{{< /repo >}}
+
+{{< repo name="dicty_genomes" full="teralevin/dicty_genomes" lang="Python · Bash · SLURM" url="https://github.com/teralevin/dicty_genomes" >}}
+Long-read assembly, genome annotation, QC, and targeted *tgrBC* locus analysis in *Dictyostelium* genomes. The pipeline behind the PNAS paper. **Contributor.**
+{{< /repo >}}
+
+</div>
+
 ## Skills {#skills}
 
 <div class="skills">

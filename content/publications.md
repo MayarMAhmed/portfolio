@@ -2,7 +2,16 @@
 title = "Publications"
 +++
 
-My research output, newest first — colour-tagged by type (paper, review, conference). Name in **bold**. See also my [Google Scholar](https://scholar.google.com/citations?user=I96NVtUAAAAJ) profile.
+You can also check out my [Google Scholar](https://scholar.google.com/citations?user=I96NVtUAAAAJ) profile.
+
+{{< rawhtml >}}
+<div class="pubfilter">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="Paper">Papers</button>
+  <button data-filter="Review">Reviews</button>
+  <button data-filter="Conference">Conferences</button>
+</div>
+{{< /rawhtml >}}
 
 {{< pub type="Paper" badge="In prep" title="Benchmarking consensus rescoring against explicit water in protein–ligand pose prediction" venue="Manuscript in preparation" authors="**Ahmed, M.**, Maldonado, A. M., Durrant, J. D." >}}
 Benchmarked molecular docking across 255 crystal structures under three hydration conditions to pinpoint when consensus-based rescoring can replace expensive explicit-water modeling — preserving the throughput needed for virtual screening. **My role:** lead author.
