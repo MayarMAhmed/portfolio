@@ -18,7 +18,7 @@ LIGNOVA docks bioactive PubChem compounds into their known protein targets with 
 {{< /pub >}}
 
 {{< pub type="Paper" badge="In prep" title="Benchmarking consensus rescoring against explicit water in protein–ligand pose prediction" venue="Manuscript in preparation · 2026" authors="**Ahmed, M.**, Maldonado, A. M., Durrant, J. D." >}}
-Benchmarked molecular docking across 255 crystal structures under three hydration conditions to pinpoint when consensus-based rescoring can replace expensive explicit-water modeling — preserving the throughput needed for virtual screening. **My role:** lead author.
+Benchmarked molecular docking methods under three hydration conditions to pinpoint when consensus-based rescoring can replace expensive explicit-water modeling — preserving the throughput needed for virtual screening. **My role:** lead author.
 {{< /pub >}}
 
 {{< pub type="Talk" title="Putting the pieces together *in silico* to build drugs from fragments" venue="MCDB Noon Seminar Series · Durrant Lab, University of Pittsburgh · Jan 2026" authors="**Ahmed, M.**" >}}
