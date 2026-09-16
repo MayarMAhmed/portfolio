@@ -1,8 +1,9 @@
 <div class="tl-item">
   <span class="tl-dot"></span>
   <div class="tl-card">
-    {{ with .Get "badge" }}<span class="tl-badge">{{ . }}</span>{{ end }}
+    <div class="tl-tag tl-tag-{{ .Get "category" | lower }}">{{ .Get "year" }}{{ with .Get "category" }} &middot; {{ . }}{{ end }}</div>
     {{ with .Get "header" }}<div class="tl-header">{{ . | markdownify }}</div>{{ end }}
+    {{ with .Get "location" }}<div class="tl-loc">{{ . }}</div>{{ end }}
     {{ with .Get "subheader" }}<div class="tl-subheader">{{ . | markdownify }}</div>{{ end }}
     <div class="tl-body">{{ .Inner | markdownify }}</div>
   </div>

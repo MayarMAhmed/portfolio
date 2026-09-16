@@ -1,0 +1,20 @@
+<div class="journey">
+  <div class="journey-rail">
+    <div class="journey-year" data-role="year">{{ (index site.Data.journey 0).year }}</div>
+    <div class="journey-cat" data-role="cat">{{ (index site.Data.journey 0).category }}</div>
+    <div class="journey-prog"><span data-role="prog"></span></div>
+  </div>
+  <div class="journey-entries">
+    {{ range $i, $e := site.Data.journey }}
+    <div class="je" id="je-{{ $i }}" data-index="{{ $i }}" data-year="{{ $e.year }}" data-category="{{ $e.category }}">
+      <span class="je-dot"></span>
+      <div class="je-card">
+        <div class="je-tag je-tag-{{ $e.category | lower }}">{{ $e.category }}</div>
+        <div class="je-header">{{ $e.header | markdownify }}</div>
+        {{ with $e.location }}<div class="je-loc">{{ . }}</div>{{ end }}
+        <div class="je-body">{{ $e.body | markdownify }}</div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

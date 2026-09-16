@@ -48,13 +48,14 @@ html { font-size: 17px; }
 }
 .tl-item:nth-child(odd) .tl-dot { right: -8px; }
 .tl-item:nth-child(even) .tl-dot { left: -8px; }
-.tl-card {
-  display: inline-block; text-align: left; padding: 1rem 1.25rem; border-radius: .75rem;
-  background: rgba(125,125,135,.08); border: 1px solid rgba(125,125,135,.2);
-}
+
 .tl-badge {
   display: inline-block; font-size: .75rem; font-weight: 600; padding: .15rem .6rem;
   border-radius: 9999px; background: rgba(59,130,246,.15); color: #3b82f6; margin-bottom: .4rem;
+}
+.tl-card {
+  display: inline-block; text-align: left; padding: 1rem 1.25rem; border-radius: .75rem;
+  background: rgba(125,125,135,.08); border: 1px solid rgba(125,125,135,.2);
 }
 .tl-header { margin: .1rem 0; font-size: 1.15rem; font-weight: 700; }
 .tl-subheader { font-size: .95rem; opacity: .85; margin-bottom: .4rem; }
@@ -67,6 +68,55 @@ html { font-size: 17px; }
     width: 100%; margin-left: 0; padding: .5rem 0 .5rem 2.25rem; text-align: left;
   }
   .tl-item:nth-child(odd) .tl-dot, .tl-item:nth-child(even) .tl-dot { left: 0; right: auto; }
+}
+
+.tl-tag {
+  display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+  text-transform: uppercase; padding: .12rem .6rem; border-radius: 9999px; margin-bottom: .45rem;
+}
+.tl-tag-education   { background: rgba(16,185,129,.15); color: #10b981; }
+.tl-tag-research    { background: rgba(59,130,246,.15); color: #3b82f6; }
+.tl-tag-transition  { background: rgba(168,85,247,.15); color: #a855f7; }
+.tl-tag-teaching    { background: rgba(20,184,166,.15); color: #14b8a6; }
+.tl-tag-award       { background: rgba(245,158,11,.15); color: #f59e0b; }
+.tl-tag-present     { background: rgba(236,72,153,.15); color: #ec4899; }
+.tl-loc { font-size: .82rem; opacity: .6; margin-bottom: .35rem; }
+
+
+/* --- Journey (sticky year + progress) --- */
+.journey { display: flex; gap: 2.5rem; align-items: flex-start; margin: 1.5rem 0; }
+.journey-rail { position: sticky; top: 6rem; flex: 0 0 200px; align-self: flex-start; }
+.journey-year { font-size: 3rem; font-weight: 800; color: #3b82f6; line-height: 1; transition: opacity .2s ease; }
+.journey-cat { font-size: .8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .65; margin-top: .5rem; }
+.journey-prog { margin-top: 1.25rem; height: 4px; border-radius: 9999px; background: rgba(125,125,135,.25); overflow: hidden; }
+.journey-prog span { display: block; height: 100%; width: 0%; background: #3b82f6; border-radius: 9999px; transition: width .25s ease; }
+
+.journey-entries { position: relative; flex: 1 1 auto; padding-left: 1.75rem; border-left: 2px solid rgba(125,125,135,.3); }
+.je { position: relative; margin-bottom: 1.75rem; scroll-margin-top: 6rem; }
+.je-dot {
+  position: absolute; left: -1.75rem; top: .9rem; width: 14px; height: 14px;
+  border-radius: 9999px; background: rgba(125,125,135,.5); transform: translateX(-50%);
+  transition: background .2s ease, transform .2s ease;
+}
+.je.is-active .je-dot { background: #3b82f6; transform: translateX(-50%) scale(1.35); }
+.je-card { padding: 1rem 1.25rem; border-radius: .75rem; background: rgba(125,125,135,.08); border: 1px solid rgba(125,125,135,.2); }
+.je.is-active .je-card { border-color: rgba(59,130,246,.5); }
+.je-header { font-size: 1.1rem; font-weight: 700; line-height: 1.3; }
+.je-header p { margin: 0; }
+.je-loc { font-size: .82rem; opacity: .6; margin: .15rem 0 .35rem; }
+.je-body { font-size: .92rem; opacity: .9; line-height: 1.45; }
+.je-body p { margin: 0; }
+.je-tag { display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: .12rem .6rem; border-radius: 9999px; margin-bottom: .45rem; }
+.je-tag-education { background: rgba(16,185,129,.15); color: #10b981; }
+.je-tag-research { background: rgba(59,130,246,.15); color: #3b82f6; }
+.je-tag-transition { background: rgba(168,85,247,.15); color: #a855f7; }
+.je-tag-teaching { background: rgba(20,184,166,.15); color: #14b8a6; }
+.je-tag-present { background: rgba(236,72,153,.15); color: #ec4899; }
+
+@media (max-width: 800px) {
+  .journey { display: block; }
+  .journey-rail { position: static; margin-bottom: 1.25rem; }
+  .journey-year { font-size: 2rem; }
 }
 
 /* --- Publication cards --- */
@@ -142,11 +192,11 @@ html { font-size: 17px; }
   color: #3b82f6;
   border: 1px solid rgba(59,130,246,.3);
 }
-.skill-group, .award, .repo, .pub, .edu {
+.skill-group, .award, .repo, .pub, .edu, .je-card {
   transition: transform .15s ease, box-shadow .15s ease,
               background-color .15s ease, border-color .15s ease;
 }
-.skill-group:hover, .award:hover, .repo:hover, .pub:hover, .edu:hover {
+.skill-group:hover, .award:hover, .repo:hover, .pub:hover, .edu:hover, .je-card:hover {
   transform: translateY(-3px);
   background: rgba(59,130,246,.08);
   border-color: rgba(59,130,246,.5);

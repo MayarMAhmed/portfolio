@@ -1,18 +1,49 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  // Publication filter
   var bar = document.querySelector(".pubfilter");
-  if (!bar) return;
-  var cards = Array.from(document.querySelectorAll(".pub"));
-  bar.addEventListener("click", function (e) {
-    var btn = e.target.closest("button");
-    if (!btn) return;
-    var want = btn.dataset.filter;
-    bar.querySelectorAll("button").forEach(function (b) { b.classList.remove("active"); });
-    btn.classList.add("active");
-    cards.forEach(function (card) {
-      var type = (card.querySelector(".pub-type") || {}).textContent || "";
-      card.classList.toggle("hidden", want !== "all" && type.trim() !== want);
+  if (bar) {
+    var cards = Array.from(document.querySelectorAll(".pub"));
+    bar.addEventListener("click", function (e) {
+      var btn = e.target.closest("button");
+      if (!btn) return;
+      var want = btn.dataset.filter;
+      bar.querySelectorAll("button").forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      cards.forEach(function (card) {
+        var type = (card.querySelector(".pub-type") || {}).textContent || "";
+        card.classList.toggle("hidden", want !== "all" && type.trim() !== want);
+      });
     });
-  });
+  }
+
+  // Journey scroll-spy + progress
+  var jes = document.querySelectorAll(".je");
+  var yEl = document.querySelector('[data-role="year"]');
+  var cEl = document.querySelector('[data-role="cat"]');
+  var pEl = document.querySelector('[data-role="prog"]');
+  if (jes.length && yEl) {
+    var spy = new IntersectionObserver(function (obs) {
+      obs.forEach(function (o) {
+        if (o.isIntersecting) {
+          jes.forEach(function (j) { j.classList.remove("is-active"); });
+          o.target.classList.add("is-active");
+          yEl.textContent = o.target.dataset.year;
+          cEl.textContent = o.target.dataset.category;
+          var idx = parseInt(o.target.dataset.index, 10);
+          if (pEl) pEl.style.width = ((idx + 1) / jes.length * 100) + "%";
+        }
+      });
+    }, { rootMargin: "-45% 0px -45% 0px" });
+    jes.forEach(function (j) { spy.observe(j); });
+
+    // Click a card to bring it into focus (ignore clicks on real links inside it)
+    jes.forEach(function (j) {
+      j.addEventListener("click", function (e) {
+        if (e.target.closest("a")) return;   // let inline links work normally
+        j.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+  }
 });
 </script>

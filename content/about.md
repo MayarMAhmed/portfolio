@@ -1,45 +1,23 @@
 +++
-title = "About me"
+title = "About Me"
 +++
 
 <nav class="pagenav" aria-label="On this page">
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#software">Software</a>
-  <a href="#skills">Skills</a>
+<a href="#about">About</a>
+<a href="#journey">Journey</a>
+<a href="#software">Software</a>
+<a href="#skills">Skills</a>
 </nav>
 
 <span id="about"></span>
 
-I'm a final-year Ph.D. candidate in the [Durrant Lab](https://durrantlab.pitt.edu/) at the University of Pittsburgh, working at the intersection of computational structural biology and machine learning for drug discovery. My focus is building open-source tools and large-scale datasets for structure-based drug design.
+I'm a final-year Ph.D. candidate in the [Durrant Lab](https://durrantlab.pitt.edu/) at the University of Pittsburgh, working in computational structural biology and machine learning for drug discovery. I'm now seeking industry roles in computational drug discovery, ML for chemistry, and cheminformatics / scientific software. Here is how I got here.
 
-I'm now seeking industry roles in computational drug discovery, machine learning for chemistry, and cheminformatics / scientific software development. Open to relocation.
+<span id="journey"></span>
 
-## Experience & Education {#experience}
-{{< tl >}}
+## Journey {#journey}
 
-{{< tlitem badge="Aug 2021 – Present" header="University of Pittsburgh" subheader="Ph.D. Candidate, MCDB — [Durrant Lab](https://durrantlab.pitt.edu/)" >}}
-Lead developer of **LIGNOVA**, a large-scale protein–ligand dataset pipeline (NSF ACCESS-funded). Benchmarked docking across 255 crystal structures to determine when consensus scoring can replace explicit-water modeling. Structure-based discovery of arginine sensors with the O'Donnell Lab. Built HPC/SLURM automation across all projects.
-{{< /tlitem >}}
-
-{{< tlitem badge="2024 & 2025" header="University of Pittsburgh" subheader="Graduate Teaching Assistant & Fellow — Biochemistry" >}}
-Led recitations and office hours for ~200 students and mentored 15 undergraduate TAs. Nominated for the Elizabeth Baranger Excellence in Teaching Award.
-{{< /tlitem >}}
-
-{{< tlitem badge="Summer 2024" header="TECBio REU, University of Pittsburgh" subheader="Undergraduate Research Mentor" >}}
-Co-mentored a 10-week project applying AlphaFold2 to explore protein conformations for drug design.
-{{< /tlitem >}}
-
-{{< tlitem badge="Jun 2020 – Apr 2021" header="Zewail City University" subheader="Undergraduate Researcher — Badr Lab" >}}
-Trained Random Forest models to predict drug sensitivity from transcriptomic profiles in acute myeloid leukemia, identifying markers linked to differential drug response.
-{{< /tlitem >}}
-
-{{< tlitem badge="2017 – 2021" header="Zewail City University of Science and Technology" subheader="B.S. Computational Biology & Genomics (Biomedical Sciences)" >}}
-Graduated *cum laude* on a 90% merit-based scholarship.
-{{< /tlitem >}}
-
-{{< /tl >}}
-
+{{< journey >}}
 For the full record, see my [CV](/cv/) and [publications](/publications/).
 
 ## Software {#software}
