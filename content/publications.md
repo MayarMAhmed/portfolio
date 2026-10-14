@@ -13,7 +13,7 @@ You can also check out my [Google Scholar](https://scholar.google.com/citations?
 </div>
 {{< /rawhtml >}}
 
-{{< pub type="Poster" badge="Upcoming" title="LIGNOVA: An automated pipeline for large-scale generation of high-quality protein–ligand complexes" venue="Computational Medicinal Chemistry School · Cambridge, MA · October 2026" authors="**Ahmed, M.**, Durrant, J. D." conf="https://www.compmedchem.org/" >}}
+{{< pub type="Poster"  title="LIGNOVA: An automated pipeline for large-scale generation of high-quality protein–ligand complexes" venue="Computational Medicinal Chemistry School · Cambridge, MA · October 2026" authors="**Ahmed, M.**, Durrant, J. D." conf="https://www.compmedchem.org/" >}}
 LIGNOVA docks bioactive PubChem compounds into their known protein targets with GNINA, then filters for physically plausible poses to build large-scale receptor-bound data for training next-generation ML models — 125M+ poses across 175,200 compounds and 4,180 protein structures so far, with an NSF ACCESS allocation to scale it nationally. **My role:** lead developer.
 {{< /pub >}}
 
