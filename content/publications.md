@@ -14,11 +14,11 @@ You can also check out my [Google Scholar](https://scholar.google.com/citations?
 {{< /rawhtml >}}
 
 {{< pub type="Poster"  title="LIGNOVA: An automated pipeline for large-scale generation of high-quality protein–ligand complexes" venue="Computational Medicinal Chemistry School · Cambridge, MA · October 2026" authors="**Ahmed, M.**, Durrant, J. D." conf="https://www.compmedchem.org/" >}}
-LIGNOVA docks bioactive PubChem compounds into their known protein targets with GNINA, then filters for physically plausible poses to build large-scale receptor-bound data for training next-generation ML models — 125M+ poses across 175,200 compounds and 4,180 protein structures so far, with an NSF ACCESS allocation to scale it nationally. **My role:** lead developer.
+LIGNOVA pairs PubChem bioactivity data with experimentally determined protein structures, docks them with GNINA on HPC, and grades every complex into Gold/Silver/Bronze tiers on pose reliability and affinity confidence for ML training. To date: 258M+ poses across 5.86M protein–ligand pairs (243,805 ligands, 11,268 structures), 89% with an experimental affinity label, scaled on an NSF ACCESS allocation. **My role:** lead developer.
 {{< /pub >}}
 
 {{< pub type="Paper" badge="In prep" title="Benchmarking consensus rescoring against explicit water in protein–ligand pose prediction" venue="Manuscript in preparation · 2026" authors="**Ahmed, M.**, Maldonado, A. M., Durrant, J. D." >}}
-Benchmarked molecular docking methods under three hydration conditions to pinpoint when consensus-based rescoring can replace expensive explicit-water modeling — preserving the throughput needed for virtual screening. **My role:** lead author.
+Tests whether consensus rescoring (ComBind) can replace expensive explicit-water modeling in Glide pose prediction. The benchmark covers 215 curated X-ray complexes and 1,415 PubChem ligands, comparing pose accuracy across three hydration conditions with paired statistical tests. **My role:** lead author.
 {{< /pub >}}
 
 {{< pub type="Talk" title="Putting the pieces together *in silico* to build drugs from fragments" venue="MCDB Noon Seminar Series · Durrant Lab, University of Pittsburgh · Jan 2026" authors="**Ahmed, M.**" >}}
