@@ -2,7 +2,7 @@
   category: "Education"
   header: "Entered Zewail City of Science and Technology"
   location: "Giza, Egypt"
-  body: "Began undergraduate studies in Biomedical Sciences, drawn to the overlap of biology and computation."
+  body: "Began undergraduate studies in Biomedical Sciences on a four-year merit scholarship, drawn to the overlap of biology and computation."
 
 - year: "Spring 2018"
   category: "Transition"
@@ -26,7 +26,7 @@
   category: "Research"
   header: "Undergraduate Thesis — AML drug sensitivity"
   location: "Giza, Egypt"
-  body: "Trained Random Forest models to predict drug sensitivity from AML transcriptomic profiles, identifying markers linked to differential drug response. Advised by Dr. Eman Badr; graduated *Cum Laude*."
+  body: "Trained Random Forest models on patient RNA-seq profiles to predict AML sensitivity to five ERBB inhibitors, identifying markers linked to differential drug response. Advised by Dr. Eman Badr; graduated *Cum Laude* and on the Provost's Honors Roll."
 
 - year: "Aug 2021"
   category: "Transition"
@@ -44,7 +44,7 @@
   category: "Transition"
   header: "Joined the Durrant Lab"
   location: "Pittsburgh, PA"
-  body: "Chose the Durrant Lab for my dissertation, focusing on structure-based drug design and open-source scientific software. Began developing **LIGNOVA**, an automated pipeline that docks bioactive PubChem compounds against experimental protein structures to build large-scale receptor-bound datasets for machine-learning — now over 232 million docked poses across 240,124 ligands and 10,851 structures, backed by a competitive NSF ACCESS allocation."
+  body: "Chose the Durrant Lab for my dissertation, focusing on structure-based drug design and open-source scientific software. Began developing **[LIGNOVA](/research/#lignova)**, an automated pipeline that docks bioactive PubChem compounds against experimental protein structures to build large-scale, quality-graded datasets for machine learning — now over 258 million docked poses across 5.86 million protein–ligand pairs (243,805 ligands, 11,268 structures)."
 
 - year: "Apr 2023"
   category: "Research"
@@ -52,11 +52,23 @@
   location: "Pittsburgh, PA"
   body: "Defended an independent research proposal in an NIH F31 format to my committee, clearing the PhD comprehensive exam."
 
+- year: "2023 – 2024"
+  category: "Research"
+  header: "Presenting LIGNOVA at Gordon Research Conferences"
+  location: "West Dover, VT & Portland, ME"
+  body: "Presented early versions of LIGNOVA as posters at the Computer-Aided Drug Design GRC (2023) and the Computational Chemistry GRC (2024). See [publications](/publications/)."
+
 - year: "2022 – 2025"
   category: "Research"
   header: "Genomics collaboration — PNAS 2025"
   location: "Pittsburgh, PA"
   body: "Extended my Levin Lab rotation into a co-first-author study of how a hypermutable hotspot drives rapid recognition-gene evolution in *Dictyostelium*. Led the computational genomics, genome assembly, QC, and targeted annotation across ten chromosome-length genomes. Published in *PNAS* (2025)."
+
+- year: "Spring 2024 & Fall 2025"
+  category: "Teaching"
+  header: "Graduate Teaching Assistant & Fellow — Biochemistry"
+  location: "Pittsburgh, PA"
+  body: "Led recitations and weekly office hours for ~200 students and mentored 15 undergraduate TAs. Nominated by students for the Elizabeth Baranger Excellence in Teaching Award in 2024 and 2026."
 
 - year: "Summer 2024"
   category: "Teaching"
@@ -64,8 +76,14 @@
   location: "Pittsburgh, PA"
   body: "Co-mentored an undergraduate on a ten-week project applying AlphaFold2 to explore HIV protease conformations for drug design, culminating in a research poster."
 
+- year: "2026"
+  category: "Research"
+  header: "Scaling LIGNOVA and stress-testing ML scoring"
+  location: "Pittsburgh, PA & Cambridge, MA"
+  body: "Earned a competitive NSF ACCESS allocation (Purdue Anvil + TAMU ACES) to scale LIGNOVA, and used the dataset to [stress-test a deep-learning affinity model](/research/#ml-evaluation), exposing a molecular-size shortcut and blindness to activity cliffs. Presented the full pipeline at the Computational Medicinal Chemistry School in October, supported by a GPSG travel grant."
+
 - year: "Feb 2026"
   category: "Present"
   header: "Advanced to PhD Candidacy"
   location: "Pittsburgh, PA"
-  body: "Proposed my dissertation work to my committee and was admitted to candidacy. Now wrapping up my PhD (expected April 2027) and seeking industry roles in computational drug discovery, ML for chemistry, and cheminformatics."
+  body: "Proposed my dissertation work to my committee and was admitted to candidacy. Now wrapping up my PhD (expected April 2027) and seeking industry roles in computational drug discovery, ML for chemistry, and cheminformatics / scientific software."
